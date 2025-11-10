@@ -1,0 +1,30 @@
+# Ignore Git-related files and directories
+.git
+.gitignore
+
+# Ignore local build artifacts
+*.exe
+*.bin
+*.out
+
+# Ignore Go module cache and build cache
+go.mod.sum
+go.sum
+pkg/
+vendor/ # If you're not vendoring dependencies inside the image
+build/
+dist/
+
+# Ignore editor/IDE specific files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Ignore temporary files and logs
+tmp/
+*.log
+
+# Ignore documentation and test files if not needed in the final image
+docs/
+test/

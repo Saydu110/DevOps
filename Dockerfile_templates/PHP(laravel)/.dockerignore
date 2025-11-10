@@ -1,0 +1,34 @@
+# Git fayllar
+.git
+.gitignore
+
+# IDE va tizim fayllari
+.vscode
+.idea
+.DS_Store
+
+# Composer fayllari va cache
+/vendor
+composer.lock
+composer.phar
+
+# Cache, logs, env
+.env
+.env.*
+*.log
+storage/logs/
+bootstrap/cache/
+
+# Node build fayllar (agar Laravelda frontend bo‘lsa)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Docker o'z fayllari
+Dockerfile
+.dockerignore
+
+# Documentation
+README.md
+LICENSE
+*.md
